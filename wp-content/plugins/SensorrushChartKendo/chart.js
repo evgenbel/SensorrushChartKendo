@@ -1,5 +1,5 @@
 /**
- * Created by Евгений on 05.01.2016.
+ * Created by Evgeniy Belov on 05.01.2016.
  */
 
 function refreshKendoChart(){
@@ -61,9 +61,6 @@ function createChart() {
 
     setInterval(refreshKendoChart, 20000);
 }
-
-
-
 
 $(document).ready(createChart);
 $(document).bind("kendo:skinChange", createChart);
