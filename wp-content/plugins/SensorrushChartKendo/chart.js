@@ -16,10 +16,6 @@ function createChart() {
                     data: {ajaxurl: 1},
                     dataType: "json"
                 }
-            },
-            sort: {
-                field: "year",
-                dir: "asc"
             }
         },
         autoBind: true,
