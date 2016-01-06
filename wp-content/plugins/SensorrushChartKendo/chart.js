@@ -25,7 +25,7 @@ function createChart() {
         autoBind: true,
         transitions: true,
             title: {
-            text: "Spain electricity production (GWh)"
+            text: "Humidity"
         },
         legend: {
             position: "top"
